@@ -1,0 +1,14 @@
+.button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: opacity 0.15s;
+  &:hover { opacity: 0.85; }
+  &:disabled { opacity: 0.5; cursor: not-allowed; }
+}
+
+.primary { background: #2563eb; color: #fff; }
+.danger { background: #dc2626; color: #fff; }
+.ghost { background: transparent; color: #2563eb; border: 1px solid #2563eb; }
